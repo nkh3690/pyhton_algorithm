@@ -2,7 +2,7 @@ COLUMN = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
 ROW = ['1', '2', '3', '4', '5', '6', '7', '8']
 
 
-def solution(pos: str):
+def solution(pos: str) -> int:
     x = COLUMN.index(pos[0])
     y = ROW.index(pos[1])
     result = 0

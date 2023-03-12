@@ -1,7 +1,7 @@
 from typing import List
 
 
-def solution(m, k, arr: List[int]):
+def solution(m: int, k: int, arr: List[int]) -> int:
     arr.sort()
 
     first = arr[len(arr) - 1]

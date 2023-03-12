@@ -1,4 +1,4 @@
-def solution(n, k):
+def solution(n: int, k: int) -> int:
     result = 0
 
     while n > 1:
